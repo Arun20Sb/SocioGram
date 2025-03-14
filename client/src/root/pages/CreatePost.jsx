@@ -50,7 +50,7 @@ const CreatePost = () => {
 
   return (
     <div className="relative w-full flex z-10 items-center justify-center">
-      <div className="flex flex-col w-5xl px-10 py-10 gap-7">
+      <div className="flex flex-col max-w-5xl px-10 py-10 gap-7 w-full">
         <div className="max-w-4xl flex-start flex items-center gap-3 justify-start w-full">
           <ImagePlus width={40} height={40} />
           <h1 className="text-xl">Create Post</h1>
