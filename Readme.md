@@ -1,15 +1,3 @@
-You're *almost* there, bro! Just a few tweaks to make it clean before you copy-paste into `README.md`.
-
-### ✅ Things to Fix:
-1. **Code blocks** shouldn't have empty lines inside or outside.
-2. **Triple backticks (```)** should wrap your code **without extra newlines**.
-3. The environment variables list is looking good—no need for extra spacing.
-4. Don't put triple backticks without a language identifier (`bash` or `env`) unless you want plain formatting.
-
----
-
-### 🔥 **Here’s the polished version to copy-paste:**
-
 ```
 📱 Sociogram - Social Media App
 
