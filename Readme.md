@@ -1,11 +1,6 @@
-
----
-
-
-```
 📱 Sociogram - Social Media App
 
-A full-stack social media platform where users can log in, create posts, interact with friends, and explore a structured, intuitive UI.
+A full-stack social media platform where users can log in, create posts, interact with friends, and explore a structured, intuitive UI.  
 Built with React.js, Tailwind CSS, and MongoDB.
 
 ---
@@ -30,19 +25,23 @@ Built with React.js, Tailwind CSS, and MongoDB.
 🖥️ Getting Started
 
 1. Clone the repository
-```
+```bash
 git clone https://github.com/Arun20Sb/SocioGram.git
-cd foldername
+cd Sociogram
 ```
 
 2. Install dependencies for both client and server folders
-```
+```bash
+cd client
+npm install
+
+cd ../server
 npm install
 ```
 
-3. Configure environment variables in server
-Create a `.env` file in the root directory and add:
-```
+3. Configure environment variables in `/server`  
+Create a `.env` file inside the `/server` directory and add:
+```env
 MONGO_URI=your_mongodb_connection_string
 PORT=your_port
 ACCESS_TOKEN_SECRET=your_access_token_secret
@@ -55,14 +54,19 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
 
-4. Run the development server for both client and server folders
-```
+4. Run the development servers for both client and server folders
+```bash
+# Run the backend (server)
+cd server
+npm run dev
+
+# In a new terminal, run the frontend (client)
+cd client
 npm run dev
 ```
 
-The app should now be running at(most cases):  
-http://localhost:3000 - server
-http://localhost:5173 - client
+The app should now be running at:  
+- Server API: http://localhost:3000  
+- Client App: http://localhost:5173
 
 ---
-```
